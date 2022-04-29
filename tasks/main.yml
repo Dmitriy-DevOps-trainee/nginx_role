@@ -6,6 +6,7 @@
 - name: Pull an image with nginx
   docker_image:
     name: nginx:latest
+    source: pull
 
 - name: Create directory for volume for docker container
   file:
